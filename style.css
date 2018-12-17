@@ -7,6 +7,49 @@
 /* MAIN NAVIGATION BAR */
 /* ------------------- */
 
+header {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    line-height: 60px;
+}
+
+nav ul {
+    float: right;
+    margin: 0;
+    padding-right: 42px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 16px 32px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    color: aqua;
+}
+
+.logo {
+    height: 48px;
+    float: left;
+    margin: 16px 48px;
+}
+
+nav.black {
+    background: #000;   
+}
+
 /* ----------------------------- */
 /* HOME PAGE AND ALL PARTS OF IT */
 /* ----------------------------- */
