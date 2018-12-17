@@ -10,6 +10,35 @@
 
 <body>
     
+    <header> <!--- Navigation Bar and Home Page ---->
+        <nav>
+        
+            <img class = "logo" src = "img/logo.png">
+        
+            <div class = "menu">
+                <ul>
+                    <li><a href = "#">Home</a></li>
+                    <li><a href = "#">Attractions</a></li>
+                    <li><a href = "#">Nourishments</a></li>
+                    <li><a href = "#">Transportation</a></li>
+                    <li><a href = "#">Dress Code</a></li>
+                </ul>
+            </div>
+        </nav>
+        
+    </header>
+    
+    <script type = "text/javascript">
+        $(window).on("scroll", function() {
+            if($(window).scrollTop()) {
+                $('nav').addClass('black');
+            }
+            else {
+                $('nav').removeClass('black');
+            }
+        })
+    </script>
+    
     <div class = "attractions"> <!----Attractions page ---->
     
     
