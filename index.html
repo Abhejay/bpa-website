@@ -3,20 +3,22 @@
 <html>
 
 <head>
+    
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BPA National Leadership Conference </title>
     <link href  = "style.css" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <link href  = "modal.css" rel="stylesheet">
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.js"> </script>
+    
     <script src="jquery.combinedScroll.js"></script>
+    
 </head>
 
 <body>
-    
-    <div class = "container">
-        <div class = home id = "home">
-        </div>
-    <header> <!--- Navigation Bar and Home Page ---->
-        <nav>
+        <header>
+            <nav>
 
                 <img class = "logo" src = "img/logo.png">
 
@@ -30,18 +32,26 @@
                     </ul>
                 </div>
             </nav>
-
-            <div class = "background-wrap">
-                <video id = "videoElem" preload="auto" autoplay="true" loop="loop" muted="muted">
-                    <source src = "img/monument.mp4" type = "video/mp4"> Video not supported
-                </video>
-            </div>
-
-            <div class = "home-text">
-                <h1>Welcome to Washington</h1>
-            </div>
-
         </header>
+            
+            <div class = home id = "home">
+                
+            </div>
+
+
+        <div class = "home-text"> 
+            <div class = "this">
+                <h1> T H I S </h1>
+            </div>
+            <div class = "is">
+                <h1>  I S  </h1>
+            </div>
+            <div class = "washington">
+                <h1>  W A S H I N G T O N  </h1>
+            </div>
+        </div>
+                    
+
 
         <script type = "text/javascript">
             $(window).on("scroll", function() {
@@ -83,36 +93,140 @@
         </script>
 
 
+
+        <div class = "attractions" id = "attractions"> <!----Attractions page ---->
+            <h1 class = "attraction-title">MOST POPULAR ATTRACTIONS</h1>
+            <div class = "row1">
+                <div class = "img1">
+                    <img class = "white-house" src = "img/attractions/white-house.jpg">
+                </div>
+                <div class = "img1">
+                    <img class = "washington-monument" src = "img/attractions/washington-monument.jpg">
+                </div>
+                <div class = "img1">
+                    <img class = "us-capitol" src = "img/attractions/us-capitol.jpg">
+                </div>
+            </div>
+            <div class = "row2">
+                <div class = "img2">
+                    <img class = "spy-museum" src = "img/attractions/spy-museum.jpg">
+                </div>
+                <div class = "img2">
+                    <img class = "art-gallery" src = "img/attractions/national-art-gallery.jpg">
+                </div>
+                <div class = "img2">
+                    <img class = "luther-memorial" src = "img/attractions/martin-luther-memorial.jpg">
+                </div>
+            </div>
+            <div class = "row3">
+                <div class = "img3">
+                    <img class = "lincoln-memorial" src = "img/attractions/lincoln-memorial.jpg">
+                </div>
+                <div class = "img3">
+                    <img class = "jefferson-memorial" src = "img/attractions/jefferson-memorial.jpg">
+                </div>
+                <div class = "img3">
+                    <img class = "air-museum" src = "img/attractions/air-museum.jpg">
+                </div>
+            </div>
+            
+            <div class = "text-row1">
+                <div class = "text1">
+                    <a href = "#modal-whiteHouse"><h2>The White House</h2></a>
+                </div>
+                <div class = "text1">
+                     <h2>The Washington Monument</h2>
+                </div>
+                <div class = "text1">
+                     <h2>The U.S. Capitol</h2>
+                </div>
+            </div>
+            <div class = "text-row2">
+                <div class = "text1">
+                     <h2>The Spy Museum</h2>
+                </div>
+                <div class = "text1">
+                     <h2>National Art Gallery</h2>
+                </div>
+                <div class = "text1">
+                     <h2>Martin Luther King Memorial</h2>
+                </div>
+            </div>
+            <div class = "text-row3">
+                <div class = "text1">
+                     <h2>Lincoln Memorial</h2>
+                </div>
+                <div class = "text1">
+                     <h2>Jefferson Memorial</h2>
+                </div>
+                <div class = "text1">
+                     <h2>National Air &amp; Space Museum</h2>
+                </div>
+            </div>
+        
+        </div>
+        
+        <div class = "transition1">
+            </div>
+
+        <div class = "food" id = "food"> <!---Nourishments page ---->
+
+
+
+        </div>
+        
+        <div class = "food-slider">
+        </div>
+
+        <div class = "transportation" id = "transportation"> <!-----Transportation page --->
+            
+            <div class = "transportation-title">
+                    <h1>METHODS OF TRANSPORTATION</h1>
+                </div>
+            
+            <div class="container" id = "transport">
+                <div class="box">
+                    <div class="icon"><i class="fa fa-car" aria-hidden="true"></i></div>
+                        <div class="content">
+                            <h3>UBER</h3>
+                            <p></p>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                    
+                </div>
+            </div>
+            <div class="box">
+                <div class="icon"><i class="fa fa-subway" aria-hidden="true"></i></div>
+            </div>
+            <div class="box">
+                <div class="icon"><i class="fa fa-taxi" aria-hidden="true"></i></div>
+            </div>
+            <div class="box">
+                <div class="icon"><i class="fa fa-bus" aria-hidden="true"></i></div>
+            </div>
+            <div class="box">
+                <div class="icon"><i class="fa fa-train" aria-hidden="true"></i></div>
+            </div>
+            <div class="box">
+                <div class="icon"><i class="fa fa-bicycle" aria-hidden="true"></i></div>
+            </div>       
+            </div>
+        </div>
+
+        <div class = "dresscode" id = "dresscode"> <!------Dress Code------>
+
+
+
+        </div>
     
-    <div class = "attractions"> <!----Attractions page ---->
+        <div class = "contactUs" id = "contact-us">
+        
     
     
     
-    </div>
-    
-    <div class = "nourishments"> <!---Nourishments page ---->
-    
-    
-    
-    </div>
-    
-    <div class = "location"> <!-----Location page ----->
-    
-    
-    
-    </div>
-    
-    <div class = "transportation"> <!-----Transportation page --->
-    
-    
-    
-    </div>
-    
-    <div class = "dresscode"> <!------Dress Code------>
-    
-    
-    
-    </div>
+        </div>
 
 
 </body>
