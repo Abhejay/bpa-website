@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BPA National Leadership Conference </title>
+    <link href="style.css" rel="stylesheet">
+    <link href="home.css" rel="stylesheet">
+    <link href="attractions.css" rel="stylesheet">
+    <link href="contact.css" rel="stylesheet">
+    <link href="dresscode.css" rel="stylesheet">
+    <link href="food.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link href="transportation.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"> </script>
+    <script src="jquery.combinedScroll.js"></script>
+
+</head>
+
+<body bgcolor="black">
+    <header>
+        <nav>
+
+            <img class="logo" src="img/bpa%20logo.png">
+
+            <div class="menu">
+                <ul>
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#nav-rester1">ATTRACTIONS</a></li>
+                    <li><a href="#food">FOOD</a></li>
+                    <li><a href="#transportation">TRANSPORTATION</a></li>
+                    <li><a href="#nav-rester2">DRESS CODE</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class=home id="home">
+
+    </div>
+
+
+    <div class="home-text">
+        <div class="this">
+            <h1> T H I S </h1>
+        </div>
+        <div class="is">
+            <h1> I S </h1>
+        </div>
+        <div class="washington">
+            <h1> W A S H I N G T O N </h1>
+        </div>
+
+
+
+    </div>
+
+
+
+    <script type="text/javascript">
+        $(window).on("scroll", function() {
+            if ($(window).scrollTop()) {
+                $('nav').addClass('black');
+            } else {
+                $('nav').removeClass('black');
+            }
+        });
+
+    </script>
+
+    <script>
+        $(document).ready(function() {
+            // Add smooth scrolling to all links
+            $("a").on('click', function(event) {
+
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
+
+                    // Store hash
+                    var hash = this.hash;
+
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function() {
+
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+                } // End if
+            });
+        });
+
+    </script>
+
+
+
+    <div class="nav-rester1" id="nav-rester1"></div>
+    <div class="attractions-title">
+        <h1 id="intro">SLIDE THROUGH 9 POPULAR ATTRACTIONS</h1>
+    </div>
+
+    <div class="attractions" id="attractions">
+        <!----Attractions page ---->
+        <div class="slide">
+            <img src="img/attractions/white-house1.jpg">
+        </div>
+        <div class="slide">
+            <img src="img/attractions/washington-monument2.jpg">
+        </div>
+        <div class="slide">
+            <img src="img/attractions/us-capitol3.jpg">
+        </div>
+        <div class="slide">
+            <img src="img/attractions/art-museum4.jpg">
+        </div>
+        <div class="slide">
+            <img src="img/attractions/lincoln-memorial5.jpg">
+        </div>
+        <div class="slide">
+            <img src="img/attractions/world-memorial6.jpg">
+        </div>
+        <div class="slide">
+            <img src="img/attractions/martin-memorial7.jpg">
+        </div>
+        <div class="slide">
+            <img src="img/attractions/jefferson-memorial8.jpg">
+        </div>
+        <div class="slide">
+            <img src="img/attractions/air-space-museum9.jpg">
+        </div>
+
+        <p id="left-arrow"><i class="fas fa-angle-double-left"></i></p>
+        <p id="right-arrow"><i class="fas fa-angle-double-right"></i></p>
+
+    </div>
+
+    <script>
+        $('#right-arrow').click(function() {
+            var currentSlide = $('.slide.active');
+            var nextSlide = currentSlide.next();
+
+            currentSlide.fadeOut(100).removeClass('active');
+            nextSlide.fadeIn(100).addClass('active');
+
+            if (nextSlide.length == 0) {
+                $('.slide').first().fadeIn(100).addClass('active');
+            }
+        });
+
+        $('#left-arrow').click(function() {
+            var currentSlide = $('.slide.active');
+            var nextSlide = currentSlide.prev();
+
+            currentSlide.fadeOut(100).removeClass('active');
+            nextSlide.fadeIn(100).addClass('active');
+
+            if (prevSlide.length == 0) {
+                $('.slide').last().fadeIn(100).addClass('active');
+            }
+        });
+
+    </script>
+
+    <div class="transition1"></div>
+
+    <div class="nav"></div>
+    
+    <div class="food" id="food">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            body {
+                font-family: Verdana, sans-serif;
+                margin: 0;
+            }
+
+            * {
+                box-sizing: border-box;
+            }
+
+            .row>.column {
+                padding: 0 8px;
+            }
+
+            .row:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+
+            .column {
+                float: left;
+                width: 25%;
+            }
+
+            /* The Modal (background) */
+            .modal {
+                display: none;
+                position: fixed;
+                z-index: 1;
+                padding-top: 100px;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                overflow: auto;
+                background-color: black;
+            }
+
+            /* Modal Content */
+            .modal-content {
+                position: relative;
+                background-color: #fefefe;
+                margin: auto;
+                padding: 0;
+                width: 90%;
+                max-width: 1200px;
+            }
+
+            /* The Close Button */
+            .close {
+                color: white;
+                position: absolute;
+                top: 100px;
+                right: 25px;
+                font-size: 35px;
+                font-weight: bold;
+            }
+
+            .close:hover,
+            .close:focus {
+                color: #999;
+                text-decoration: none;
+                cursor: pointer;
+            }
+
+            .mySlides {
+                display: none;
+            }
+
+            .cursor {
+                cursor: pointer;
+            }
+
+            /* Next & previous buttons */
+            .prev,
+            .next {
+                cursor: pointer;
+                position: absolute;
+                top: 50%;
+                width: auto;
+                padding: 16px;
+                margin-top: -50px;
+                color: white;
+                font-weight: bold;
+                font-size: 20px;
+                transition: 0.6s ease;
+                border-radius: 0 3px 3px 0;
+                user-select: none;
+                -webkit-user-select: none;
+            }
+
+            /* Position the "next button" to the right */
+            .next {
+                right: 0;
+                border-radius: 3px 0 0 3px;
+            }
+
+            /* On hover, add a black background color with a little bit see-through */
+            .prev:hover,
+            .next:hover {
+                background-color: rgba(0, 0, 0, 0.8);
+            }
+
+            /* Number text (1/3 etc) */
+            .numbertext {
+                color: #f2f2f2;
+                font-size: 12px;
+                padding: 8px 12px;
+                position: absolute;
+                top: 0;
+            }
+
+            img {
+                margin-bottom: -4px;
+            }
+
+            .caption-container {
+                text-align: center;
+                background-color: black;
+                padding: 2px 16px;
+                color: white;
+            }
+
+            .demo {
+                opacity: 0.6;
+            }
+
+            .active,
+            .demo:hover {
+                opacity: 1;
+            }
+
+            img.hover-shadow {
+                transition: 0.3s;
+            }
+
+            .hover-shadow:hover {
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            }
+
+        </style>
+
+        <body>
+            <h2 style="text-align:center">Restaurants to Visit</h2>
+            <div class="row">
+                <div class="column">
+                    <img src="img/food/LeDiplomate.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+                </div>
+                <div class="column">
+                    <img src="img/food/LeDiplomateTimings.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+                </div>
+                <div class="column">
+                    <img src="img/food/LeDiplomateFood1.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+                </div>
+                <div class="column">
+                    <img src="img/food/LeDiplomateFood2.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column">
+                    <img src="img/food/Zaytinya.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+                </div>
+                <div class="column">
+                    <img src="img/food/Zaytinyatimings.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+                </div>
+                <div class="column">
+                    <img src="img/food/Zaytinyafood1.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+                </div>
+                <div class="column">
+                    <img src="img/food/Zaytinyafood2.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column">
+                    <img src="img/food/The%20Dabney.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+                </div>
+                <div class="column">
+                    <img src="img/food/thedabneytiminigs.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+                </div>
+                <div class="column">
+                    <img src="img/food/thedabneyfood1.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+                </div>
+                <div class="column">
+                    <img src="img/food/thedabneyfood2.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <img src="img/food/RoseLuxury.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+                </div>
+                <div class="column">
+                    <img src="img/food/roseluxurytimings.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+                </div>
+                <div class="column">
+                    <img src="img/food/rosefood1.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+                </div>
+                <div class="column">
+                    <img src="img/food/rosefood2.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+                </div>
+            </div>
+
+            <div id="myModal" class="modal">
+                <span class="close cursor" onclick="closeModal()">&times;</span>
+                <div class="modal-content">
+                    <div class="mySlides">
+                        <div class="numbertext">1 / 4</div>
+                        <img src="img/food/LeDiplomate.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext">2 / 4</div>
+                        <img src="img/food/LeDiplomateTimings.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext">3 / 4</div>
+                        <img src="img/food/LeDiplomateFood1.jpg" style="width:100%">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">4 / 4</div>
+                        <img src="img/food/LeDiplomateFood2.jpg" style="width:100%">
+                    </div>
+
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    <div class="caption-container">
+                        <p id="caption"></p>
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="img/food/LeDiplomate.jpg" style="width:100%" onclick="currentSlide(1)" alt="Nature and sunrise">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="img/food/LeDiplomateTimings.jpg" style="width:100%" onclick="currentSlide(2)" alt="Snow">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="img/food/LeDiplomateFood1.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="img/food/LeDiplomateFood2.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+                    </div>
+                </div>
+            </div>
+            <script>
+                function openModal() {
+                    document.getElementById('myModal').style.display = "block";
+                }
+
+                function closeModal() {
+                    document.getElementById('myModal').style.display = "none";
+                }
+                var slideIndex = 1;
+                showSlides(slideIndex);
+
+                function plusSlides(n) {
+                    showSlides(slideIndex += n);
+                }
+
+                function currentSlide(n) {
+                    showSlides(slideIndex = n);
+                }
+
+                function showSlides(n) {
+                    var i;
+                    var slides = document.getElementsByClassName("mySlides");
+                    var dots = document.getElementsByClassName("demo");
+                    var captionText = document.getElementById("caption");
+                    if (n > slides.length) {
+                        slideIndex = 1
+                    }
+                    if (n < 1) {
+                        slideIndex = slides.length
+                    }
+                    for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";
+                    }
+                    for (i = 0; i < dots.length; i++) {
+                        dots[i].className = dots[i].className.replace(" active", "");
+                    }
+                    slides[slideIndex - 1].style.display = "block";
+                    dots[slideIndex - 1].className += " active";
+                    captionText.innerHTML = dots[slideIndex - 1].alt;
+                }
+
+            </script>
+
+        </body>
+
+
+
+    </div>
+
+    <div class="transition1"></div>
+
+    <div class="transportation" id="transportation">
+        <!-----Transportation page --->
+
+        <div class="transportation-title">
+            <h1>METHODS OF TRANSPORTATION</h1>
+        </div>
+
+
+        <div class="container" id="transport">
+
+
+            <div class="box">
+                <div class="icon"><i class="" aria-hidden="true"></i></div>
+                <div class="content">
+                    <h3></h3>
+                    <p></p>
+
+                </div>
+
+            </div>
+
+
+
+
+            <div class="box">
+                <div class="icon"><i class="" aria-hidden="true"></i></div>
+                <div class="content">
+
+                    <h3></h3>
+                    <p></p>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <a href="https://www.dccirculator.com/">
+                    <div class="icon"><i class="" aria-hidden="true"></i></div>
+                </a>
+            </div>
+
+
+
+            <div class="box">
+                <div class="icon"><i class="" aria-hidden="true"></i></div>
+            </div>
+
+            <div class="box">
+                <div class="icon"><i class="" aria-hidden="true"></i></div>
+            </div>
+
+
+
+            <div class="box">
+                <div class="icon"><i class="" aria-hidden="true"></i></div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+    <div class="transition2"></div>
+
+    <div class="nav-rester4" id="nav-rester4">
+
+    </div>
+
+    <div class="dress-men" style="width: 50%; float:left; height:600px; background:white; margin:0px;">
+        <h1>DRESSING - MEN</h1>
+        <p><i class="fas fa-male"></i></p>
+        <ul class="men-list">
+            <li>DRESS SLACK</li>
+            <li>SUIT</li>
+            <li>DRESS SHIRT</li>
+            <li>TIE</li>
+            <li>DRESS SHOES</li>
+            <li>DRESS SOCKS</li>
+        </ul>
+    </div>
+    <div class="dress-women" style="width: 50%; float:right; height:600px; background:black; margin:0px">
+        <h1>DRESSING - WOMEN</h1>
+        <p><i class="fas fa-female"></i></p>
+        <ul class="women-list">
+            <li>PANT or SKIRT SUIT</li>
+            <li>DRESS SLACKS</li>
+            <li>DRESS SHOES</li>
+            <li>SKIRT LENGTH NO GREATER THAN 2 INCHES ABOVE THE KNEE </li>
+        </ul>
+    </div>
+
+    <div class="transition3"></div>
+
+
+
+
+
+
+
+
+
+
+    <div class="wrapper" id="wrapper">
+        <div class="leftcolumn" id="leftcolumn">
+            <a href="https://www.instagram.com/bpanational/" class="ig-link">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://twitter.com/National_BPA?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class "twitter-link">
+                <i class="fab fa-twitter"></i>
+            </a>
+        </div>
+        <div class="rightcolumn" id="rightcolumn">
+            <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d99370.36297062406!2d-77.08461596894442!3d38.89370913989751!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c6de5af6e45b%3A0xc2524522d4885d2a!2sWashington%2C+DC!5e0!3m2!1sen!2sus!4v1546823168126" width="840" height="500" frameborder="0" style="border:0" allowfullscreen></iframe></p>
+        </div>
+    </div>
+
+
+</body>
+
+
+
+
+
+
+</html>

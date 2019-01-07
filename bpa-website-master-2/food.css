@@ -1,0 +1,22 @@
+.food {
+    background-color: white;
+    height: 900px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.food-slider {
+    background-image: url(img/food-slider.jpg);
+    height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.transition1 {
+    height: 10px;
+    background-color: gray;
+}

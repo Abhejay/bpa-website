@@ -1,0 +1,42 @@
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.leftcolumn,
+.rightcolumn {
+
+    float: left;
+    min-height: 500px;
+    color: white;
+}
+
+.leftcolumn {
+    width: 600px;
+    background-color: #303030;
+}
+
+.rightcolumn {
+    width: 840px;
+    background-color: #777;
+}
+
+.fa-instagram {
+    font-size: 50px;
+    text-align: center;
+    position: relative;
+    left: 32%;
+    top: 1em;
+}
+
+a:link {
+    color: none;
+}
+
+.fa-twitter {
+    font-size: 50px;
+    text-align: center;
+    position: relative;
+    left: 52%;
+    top: 1em;
+}
