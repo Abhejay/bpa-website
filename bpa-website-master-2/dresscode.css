@@ -60,21 +60,8 @@
 }
 
 
+@media screen and (min-width: 1680px, max-width: 1919px) and (height: 1050px) {}
 
+@media screen and (min-width: 1600px, max-width: 1679px) and (height: 1200px) {}
 
-
-
-
-
-
-@media screen and (width: 1280px) and (height: 800px) {}
-
-@media screen and (width: 1280px) and (height: 1024px) {}
-
-@media screen and (width: 1400px) and (height: 1050px) {}
-
-@media screen and (width: 1680px) and (height: 1050px) {}
-
-@media screen and (width: 1600px) and (height: 1200px) {}
-
-@media screen and (width: 1920px) and (height: 1200px) {}
+@media screen and (min-width: 1920px) and (height: 1200px) {}

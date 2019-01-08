@@ -170,17 +170,29 @@ img.hover-shadow {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgb(169, 169, 169);
 }
 
+@media screen and (min-width: 1441px) and (max-width: 1679px) {
+    .food {
+        background-color: black;
+        height: 1300px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
 
 
+    @media screen and (min-width: 1680px) and (height: 1050px) {
+        .food {
+            background-color: black;
+            height: 1400px;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    }
 
-@media screen and (width: 1280px) and (height: 800px) {}
+    @media screen and (min-width: 1600px, max-width: 1679px) and (height: 1200px) {}
 
-@media screen and (width: 1280px) and (height: 1024px) {}
-
-@media screen and (width: 1400px) and (height: 1050px) {}
-
-@media screen and (width: 1680px) and (height: 1050px) {}
-
-@media screen and (width: 1600px) and (height: 1200px) {}
-
-@media screen and (width: 1920px) and (height: 1200px) {}
+    @media screen and (min-width: 1920px) and (height: 1200px) {}
