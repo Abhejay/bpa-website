@@ -3,10 +3,18 @@
     background-color: black;
 }
 
+.transition2 {
+    background-image: url(img/transition.jpg);
+    height: 100px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .food {
     background-color: black;
-    height: 1300px;
+    height: 1100px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -14,7 +22,7 @@
 }
 
 .food-title {
-    font-family: Lucida Console,Lucida Sans Typewriter,monaco,Bitstream Vera Sans Mono,monospace;
+    font-family: Lucida Console, Lucida Sans Typewriter, monaco, Bitstream Vera Sans Mono, monospace;
     line-height: 100px;
     color: white;
 }
@@ -30,6 +38,7 @@
 .row img {
     border-radius: 10%;
 }
+
 .row > .column {
     padding: 0 8px;
 }
@@ -66,7 +75,7 @@
     margin: auto;
     padding: 0;
     width: 90%;
-    max-width: 1200px;
+    max-width: 940px;
 }
 
 /* The Close Button */
@@ -158,5 +167,20 @@ img.hover-shadow {
 }
 
 .hover-shadow:hover {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgb(169,169,169);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgb(169, 169, 169);
 }
+
+
+
+
+@media screen and (width: 1280px) and (height: 800px) {}
+
+@media screen and (width: 1280px) and (height: 1024px) {}
+
+@media screen and (width: 1400px) and (height: 1050px) {}
+
+@media screen and (width: 1680px) and (height: 1050px) {}
+
+@media screen and (width: 1600px) and (height: 1200px) {}
+
+@media screen and (width: 1920px) and (height: 1200px) {}

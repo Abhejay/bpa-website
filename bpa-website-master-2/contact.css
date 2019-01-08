@@ -44,4 +44,55 @@ a:link {
     top: 1em;
 }
 
+.button {
+    position: relative;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 10%;
+    top: 8em;
+    left: 11em;
+    font-family: Lucida Console, Lucida Sans Typewriter, monaco, Bitstream Vera Sans Mono, monospace;
+}
 
+.contact-title {
+    color: white;
+    position: relative;
+    text-align: center;
+    top: 6em;
+    font-family: Lucida Console, Lucida Sans Typewriter, monaco, Bitstream Vera Sans Mono, monospace;
+
+}
+
+.contact-state {
+    color: white;
+    position: relative;
+    text-align: center;
+    top: 7em;
+    font-family: Lucida Console, Lucida Sans Typewriter, monaco, Bitstream Vera Sans Mono, monospace;
+}
+
+.team-members {
+    color: white;
+    position: relative;
+    text-align: center;
+    top: 8em;
+    line-height: 2em;
+    font-family: Lucida Console, Lucida Sans Typewriter, monaco, Bitstream Vera Sans Mono, monospace;
+}
+
+
+
+
+@media screen and (width: 1280px) and (height: 800px) {}
+
+@media screen and (width: 1280px) and (height: 1024px) {}
+
+@media screen and (width: 1400px) and (height: 1050px) {}
+
+@media screen and (width: 1680px) and (height: 1050px) {}
+
+@media screen and (width: 1600px) and (height: 1200px) {}
+
+@media screen and (width: 1920px) and (height: 1200px) {}

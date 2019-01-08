@@ -1,7 +1,7 @@
-.home {
+.home {  
     height: 900px;
     background-image: url(img/home.jpg);
-    
+
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -11,7 +11,7 @@
 
 .this {
     font-family: Arial, Times, serif;
-    
+
     position: absolute;
     left: 5%;
     top: 25%;
@@ -23,7 +23,7 @@
 
 .is {
     font-family: Arial, Times, serif;
-    
+
     position: absolute;
     left: 5%;
     top: 35%;
@@ -35,7 +35,6 @@
 
 .washington {
     font-family: Arial, Times, serif;
-    
     position: absolute;
     left: 5%;
     top: 45%;
@@ -46,4 +45,61 @@
 }
 
 
+@media screen and (width: 1280px) and (height: 800px) {
+    .home {
+        height: 900px;
+        background-image: url(img/home.jpg);
 
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+    .this {
+        font-family: Arial, Times, serif;
+
+        position: absolute;
+        left: 5%;
+        top: 25%;
+        font-size: 30px;
+        background-color: #700000;
+        color: #F5F5F5;
+        line-height: 25px;
+    }
+
+    .is {
+        font-family: Arial, Times, serif;
+
+        position: absolute;
+        left: 5%;
+        top: 35%;
+        font-size: 30px;
+        background-color: #b38600;
+        color: #F5F5F5;
+        line-height: 25px;
+    }
+
+    .washington {
+        font-family: Arial, Times, serif;
+        position: absolute;
+        left: 5%;
+        top: 45%;
+        font-size: 30px;
+        background-color: #0000b3;
+        color: #F5F5F5;
+        line-height: 25px;
+    }
+
+}
+
+@media screen and (width: 1280px) and (height: 1024px) {}
+
+@media screen and (width: 1400px) and (height: 1050px) {}
+
+@media screen and (width: 1680px) and (height: 1050px) {}
+
+@media screen and (width: 1600px) and (height: 1200px) {}
+
+@media screen and (width: 1920px) and (height: 1200px) {}

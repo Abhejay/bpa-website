@@ -37,6 +37,10 @@
     display: block;
 }
 
+.slide img {
+    width: 100%;
+}
+
 .pointerClass {
     height: 100px;
     color: white;
@@ -70,3 +74,87 @@
     background-size: cover;
 }
 
+@media screen and (width: 1280px) and (height: 800px) {
+    .nav-rester1 {
+        height: 80px;
+        background-color: black;
+    }
+
+    .attractions-title {
+        height: 50px;
+        background-color: black;
+    }
+
+    #intro {
+        text-align: center;
+        color: white;
+        position: relative;
+        top: 10px;
+        font-family: Lucida Console, Lucida Sans Typewriter, monaco, Bitstream Vera Sans Mono, monospace;
+        font-size: 25px;
+        left: 10%;
+    }
+
+    .attractions {
+        position: relative;
+        width: 100%;
+        height: 800px;
+        background-image: url(img/attractions/attractions-home.jpg);
+    }
+
+    .slide {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-image: url(img/attractions/attractions-home.jpg);
+        display: none;
+    }
+
+    .slide.active {
+        display: block;
+    }
+
+    .pointerClass {
+        height: 100px;
+        color: white;
+    }
+
+    #left-arrow {
+        position: absolute;
+        right: 15%;
+        font-size: 45px;
+        cursor: pointer;
+        color: white;
+        top: 630px;
+    }
+
+    #right-arrow {
+        position: absolute;
+        right: 5%;
+        font-size: 45px;
+        cursor: pointer;
+        color: white;
+        top: 630px;
+
+    }
+
+    .transition1 {
+        background-image: url(img/transition.jpg);
+        height: 100px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+}
+
+@media screen and (width: 1280px) and (height: 1024px) {}
+
+@media screen and (width: 1400px) and (height: 1050px) {}
+
+@media screen and (width: 1680px) and (height: 1050px) {}
+
+@media screen and (width: 1600px) and (height: 1200px) {}
+
+@media screen and (width: 1920px) and (height: 1200px) {}
