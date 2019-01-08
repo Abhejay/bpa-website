@@ -57,6 +57,26 @@
     }
 }
 
-@media screen and (min-width: 1600px, max-width: 1679px) and (height: 1200px) {}
+@media screen and (min-width: 1600px, max-width: 1679px) and (height: 1200px) {
+    .home {
+        height: 900px;
+        background-image: url(img/home.jpg);
 
-@media screen and (min-width: 1920px) and (height: 1200px) {}
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+@media screen and (min-width: 1920px) and (height: 1200px) {
+    .home {
+    height: 1200px;
+    background-image: url(img/home.jpg);
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+}

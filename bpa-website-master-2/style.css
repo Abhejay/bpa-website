@@ -56,15 +56,30 @@ nav.black {
 
 @media screen and (min-width: 1680px) and (height: 1050px) {
     nav {
-    position: fixed;
-    max-width: 100%;
-    line-height: 50px;
-    font-family: sans-serif;
-    z-index: 500;
-}
-    
+        position: fixed;
+        max-width: 100%;
+        line-height: 50px;
+        font-family: sans-serif;
+        z-index: 500;
+    }
+
 }
 
-@media screen and (min-width: 1600px, max-width: 1679px) and (height: 1200px) {}
+@media screen and (min-width: 1600px, max-width: 1679px) and (height: 1200px) {
+    nav {
+        position: fixed;
+        max-width: 100%;
+        line-height: 50px;
+        font-family: sans-serif;
+        z-index: 500;
+    }
 
-@media screen and (min-width: 1920px) and (height: 1200px) {}
+    @media screen and (min-width: 1920px) and (height: 1200px) {
+        nav {
+            position: fixed;
+            width: 100%;
+            line-height: 50px;
+            font-family: sans-serif;
+            z-index: 500;
+        }
+    }

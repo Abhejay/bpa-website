@@ -182,17 +182,27 @@ img.hover-shadow {
 }
 
 
-    @media screen and (min-width: 1680px) and (height: 1050px) {
-        .food {
-            background-color: black;
-            height: 1400px;
-            background-attachment: fixed;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
+@media screen and (min-width: 1680px) and (height: 1050px) {
+    .food {
+        background-color: black;
+        height: 1400px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+@media screen and (min-width: 1600px, max-width: 1679px) and (height: 1200px) {}
+
+@media screen and (min-width: 1920px) and (height: 1200px) {
+    .food {
+        background-color: black;
+        height: 1500px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
-    @media screen and (min-width: 1600px, max-width: 1679px) and (height: 1200px) {}
-
-    @media screen and (min-width: 1920px) and (height: 1200px) {}
+}
