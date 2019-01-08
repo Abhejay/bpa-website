@@ -62,6 +62,11 @@
 }
 
 .transition1 {
-    height: 10px;
-    background-color: gray;
+    background-image: url(img/transition.jpg);
+    height: 100px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+

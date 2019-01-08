@@ -1,4 +1,4 @@
-.nav-rester2 {
+.nav-rester4 {
     height: 80px;
     background-color: black;
 }
@@ -33,16 +33,13 @@
 
 }
 
-.transition3 {
-    height: 10px;
-    background-color: gray;
-}
-
 .men-list {
     font-family: Lucida Console, Lucida Sans Typewriter, monaco, Bitstream Vera Sans Mono, monospace;
     text-align: center;
     position: relative;
     top: 10%;
+    border: 1px solid;
+    
 }
 
 .women-list {
@@ -51,4 +48,7 @@
     position: relative;
     top: 10%;
     color: white;
+    border: 1px solid;
+    
 }
+

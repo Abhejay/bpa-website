@@ -19,6 +19,9 @@
 .rightcolumn {
     width: 840px;
     background-color: #777;
+    position: relative;
+    height: 0;
+    overflow: hidden;
 }
 
 .fa-instagram {
@@ -40,3 +43,5 @@ a:link {
     left: 52%;
     top: 1em;
 }
+
+
