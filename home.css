@@ -1,0 +1,123 @@
+.home {
+    height: 900px;
+    background-image: url(img/home.jpg);
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.this {
+    font-family: Arial, Times, serif;
+
+    position: absolute;
+    left: 5%;
+    top: 25%;
+    font-size: 30px;
+    background-color: #700000;
+    color: #F5F5F5;
+    line-height: 25px;
+}
+
+.is {
+    font-family: Arial, Times, serif;
+
+    position: absolute;
+    left: 5%;
+    top: 35%;
+    font-size: 30px;
+    background-color: #b38600;
+    color: #F5F5F5;
+    line-height: 25px;
+}
+
+.washington {
+    font-family: Arial, Times, serif;
+    position: absolute;
+    left: 5%;
+    top: 45%;
+    font-size: 30px;
+    background-color: #0000b3;
+    color: #F5F5F5;
+    line-height: 25px;
+}
+
+
+@media screen and (min-width: 1900px) {
+    .home {
+        height: 1200px;
+        background-image: url(img/home.jpg);
+
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+@media screen and (min-width: 5120px)
+
+/* heigh = 2880px*/
+    {
+    .home {
+        height: 2880px;
+        background-image: url(img/home.jpg);
+
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .this {
+        font-family: Arial, Times, serif;
+
+        position: absolute;
+        left: 5%;
+        top: 25%;
+        font-size: 100px;
+        background-color: #700000;
+        color: #F5F5F5;
+        line-height: 80px;
+    }
+
+    .is {
+        font-family: Arial, Times, serif;
+
+        position: absolute;
+        left: 5%;
+        top: 35%;
+        font-size: 100px;
+        background-color: #b38600;
+        color: #F5F5F5;
+        line-height: 80px;
+    }
+
+    .washington {
+        font-family: Arial, Times, serif;
+        position: absolute;
+        left: 5%;
+        top: 45%;
+        font-size: 100px;
+        background-color: #0000b3;
+        color: #F5F5F5;
+        line-height: 80px;
+    }
+
+
+}
+
+@media screen and (max-width: 414) {
+    .home {
+        height: 900px;
+        background-image: url(img/home.jpg);
+
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+    }
+}

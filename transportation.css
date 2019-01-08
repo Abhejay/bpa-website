@@ -1,0 +1,187 @@
+.transportation {
+    background-color: black;
+    height: 820px;
+}
+
+.transportation-title {
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 90px;
+    font-family: Lucida Console, Lucida Sans Typewriter, monaco, Bitstream Vera Sans Mono, monospace;
+}
+
+.container {
+    position: relative;
+    width: 1200px;
+    margin: auto;
+    top: 120px;
+}
+
+.container .box {
+    position: relative;
+    width: calc(400px - 30px);
+    height: calc(300px - 30px);
+    background: black;
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.container .box .icon {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: red;
+    transition: 0.5s;
+    z-index: 1;
+}
+
+.container .box:hover .icon {
+    top: 20px;
+    left: calc(50% - 40px);
+    width: 100px;
+    /* 80 for both*/
+    height: 0px;
+    border-radius: 50%;
+
+}
+
+.container .box .icon .fa {
+
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    transition: 0.5s;
+    color: white;
+}
+
+.container .box:hover .icon .fa {
+    font-size: 40px;
+}
+
+.container .box .content {
+    position: relative;
+    top: 100%;
+    height: clac(100% - 100px);
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+.container .box:hover .content {
+    top: 100px;
+    opacity: 1;
+}
+
+.container .box .content h3 {
+    margin: 0 0 10px;
+    padding: 0;
+    color: black;
+    font-size: 24px;
+
+}
+
+.container .box .content p {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-size: 24px;
+}
+
+.container .box:nth-child(1) .icon {
+    background: url(img/transportation/Uber.jpg);
+}
+
+.container .box:nth-child(1) {
+    background: url(img/transportation/uberrating.jpg);
+
+}
+
+.container .box:nth-child(2) .icon {
+    background: url(img/transportation/dctaxi.jpg);
+}
+
+.container .box:nth-child(2) {
+    background: url(img/transportation/dctaxirating.jpg);
+}
+
+.container .box:nth-child(3) .icon {
+    background: url(img/transportation/circulatorbus.jpg);
+}
+
+.container .box:nth-child(3) {
+    background: url(img/transportation/circulatorrating.jpg);
+}
+
+.container .box:nth-child(4) .icon {
+    background: url(img/transportation/lyft.jpg);
+}
+
+.container .box:nth-child(4) {
+    background: url(img/transportation/lyftrating.jpg);
+}
+
+.container .box:nth-child(5) .icon {
+    background: url(img/transportation/metro.jpg);
+}
+
+.container .box:nth-child(5) {
+    background: url(img/transportation/metrorating.jpg);
+}
+
+.container .box:nth-child(6) .icon {
+    background: url(img/transportation/bikeandroll.jpg);
+}
+
+.container .box:nth-child(6) {
+    background: url(img/transportation/BikeandRollrating.jpg);
+}
+
+.transition2 {
+    background-image: url(img/transition.jpg);
+    height: 100px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-rester3 {
+    height: 80px;
+    background-color: black;
+}
+
+.transition3 {
+    background-image: url(img/transition.jpg);
+    height: 100px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+@media screen and (min-width: 1900px) {
+    .transportation {
+        background-color: black;
+        height: 900px;
+    }
+}
+
+@media screen and (min-width: 5280px) {
+    .transportation {
+        background-color: black;
+        height: 2880px;
+    }
+
+}

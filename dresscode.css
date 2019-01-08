@@ -1,0 +1,60 @@
+.nav-rester4 {
+    height: 80px;
+    background-color: black;
+}
+
+
+.dress-men h1 {
+    font-family: Lucida Console, Lucida Sans Typewriter, monaco, Bitstream Vera Sans Mono, monospace;
+    text-align: center;
+}
+
+.dress-women h1 {
+    font-family: Lucida Console, Lucida Sans Typewriter, monaco, Bitstream Vera Sans Mono, monospace;
+    text-align: center;
+    color: white;
+}
+
+.dress-men p {
+    font-size: 300px;
+    color: black;
+    text-align: center;
+    position: relative;
+    top: 10%;
+
+}
+
+.dress-women p {
+    color: white;
+    font-size: 300px;
+    text-align: center;
+    position: relative;
+    top: 10%;
+
+}
+
+.men-list {
+    font-family: Lucida Console, Lucida Sans Typewriter, monaco, Bitstream Vera Sans Mono, monospace;
+    text-align: center;
+    position: relative;
+    top: 10%;
+
+}
+
+.women-list {
+    font-family: Lucida Console, Lucida Sans Typewriter, monaco, Bitstream Vera Sans Mono, monospace;
+    text-align: center;
+    position: relative;
+    top: 10%;
+    color: white;
+
+}
+
+.transition4 {
+    background-image: url(img/transition.jpg);
+    height: 100px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
