@@ -48,20 +48,20 @@
 
 #left-arrow {
     position: absolute;
-    right: 30%;
-    font-size: 45px;
+    right: 10%;
+    font-size: 25px;
     cursor: pointer;
     color: white;
-    top: 630px;
+    top: 640px;
 }
 
 #right-arrow {
     position: absolute;
-    right: 15%;
-    font-size: 45px;
+    right: 5%;
+    font-size: 25px;
     cursor: pointer;
     color: white;
-    top: 630px;
+    top: 640px;
 
 }
 
@@ -72,6 +72,78 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.hours-1 {
+    color: white;
+    position: relative;
+    left: 800px;
+    bottom: 50px;
+    font-family: Lucida Console, Lucida Sans Typewriter, monaco, Bitstream Vera Sans Mono, monospace;
+}
+
+.hours-2 {
+    color: white;
+    position: relative;
+    left: 800px;
+    bottom: 50px;
+    font-family: Lucida Console, Lucida Sans Typewriter, monaco, Bitstream Vera Sans Mono, monospace;
+}
+
+.hours-3 {
+    color: white;
+    position: relative;
+    left: 800px;
+    bottom: 50px;
+    font-family: Lucida Console, Lucida Sans Typewriter, monaco, Bitstream Vera Sans Mono, monospace;
+}
+
+.hours-4 {
+    color: white;
+    position: relative;
+    left: 800px;
+    top: 12px;
+    font-family: Lucida Console, Lucida Sans Typewriter, monaco, Bitstream Vera Sans Mono, monospace;
+}
+
+.hours-5 {
+    color: white;
+    position: relative;
+    left: 800px;
+    bottom: 50px;
+    font-family: Lucida Console, Lucida Sans Typewriter, monaco, Bitstream Vera Sans Mono, monospace;
+}
+
+.hours-6 {
+    color: white;
+    position: relative;
+    left: 800px;
+    bottom: 50px;
+    font-family: Lucida Console, Lucida Sans Typewriter, monaco, Bitstream Vera Sans Mono, monospace;
+}
+
+.hours-7 {
+    color: white;
+    position: relative;
+    left: 800px;
+    bottom: 50px;
+    font-family: Lucida Console, Lucida Sans Typewriter, monaco, Bitstream Vera Sans Mono, monospace;
+}
+
+.hours-8 {
+    color: white;
+    position: relative;
+    left: 800px;
+    bottom: 50px;
+    font-family: Lucida Console, Lucida Sans Typewriter, monaco, Bitstream Vera Sans Mono, monospace;
+}
+
+.hours-9 {
+    color: white;
+    position: relative;
+    left: 800px;
+    bottom: 50px;
+    font-family: Lucida Console, Lucida Sans Typewriter, monaco, Bitstream Vera Sans Mono, monospace;
 }
 
 @media screen and (width: 1280px) and (height: 800px) {
@@ -122,16 +194,16 @@
     #left-arrow {
         position: absolute;
         right: 15%;
-        font-size: 45px;
+        font-size: 25px;
         cursor: pointer;
         color: white;
-        top: 630px;
+        top: 60px;
     }
 
     #right-arrow {
         position: absolute;
         right: 5%;
-        font-size: 45px;
+        font-size: 25px;
         cursor: pointer;
         color: white;
         top: 630px;
